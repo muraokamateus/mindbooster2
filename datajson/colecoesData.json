@@ -1,0 +1,12 @@
+{
+    "colecoesItens":[
+        {
+            "id":1,
+            "name":"Objetos"
+        },
+        {
+            "id":2,
+            "name":"Cores"
+        }
+    ]
+}

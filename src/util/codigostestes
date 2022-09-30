@@ -1,0 +1,16 @@
+import * as React from "react";
+import { View, Text, StyleSheet, Image, TouchableOpacity,Alert } from "react-native";
+
+const Text = () =>{
+function confirmCardDeletion = () =>
+    Alert.alert("0","Você tem certeza que deseja excluir esse cartão?",[
+        {
+            text:"Sim",
+            onPress:() => console.log(""),
+        },
+        {
+            text:"Cancelar",
+            onPress:() => console.log(""),
+        }
+    ])
+}
